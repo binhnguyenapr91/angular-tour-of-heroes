@@ -9,13 +9,15 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { FormsModule } from '@angular/forms';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TopMenuComponent } from './top-menu/top-menu.component'; // <-- NgModel lives here
+import { TopMenuComponent } from './top-menu/top-menu.component';
+import { MessageComponent } from './message/message.component'; // <-- NgModel lives here
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    TopMenuComponent
+    TopMenuComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
